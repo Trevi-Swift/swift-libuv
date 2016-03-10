@@ -17,5 +17,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "Libuv"
+    name: "Libuv",
+    exclude: ["Makefile", "Xcode"]
 )
